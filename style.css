@@ -1,5 +1,10 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: rgb(248, 239, 221);
     
 }
 
@@ -15,6 +20,12 @@ body {
         line-height: 1.5;
     }
 
+    ul li {
+        display: inline;
+        border: 2px solid black;
+        margin: 2px;
+        
+    }
 
     .center {
         display: block;
@@ -23,4 +34,43 @@ body {
         width: 75%;
       }
 
-    
+    .recipe {
+       padding: 8px;
+    }
+
+    .info {
+        margin: 45px;
+    }
+
+    .button {
+        background: rgb(248, 239, 221);
+        font-size: 14px;
+        font-weight: bold;
+        padding: 8px 12px;
+        margin-top: 20px;
+        border: 2px solid #002ead;
+
+    }
+
+    .button:hover {
+        background-color:#002ead;
+        color: white;
+    }
+
+    span {
+        display: inline;
+        
+        
+    }
+
+    .step-two span {
+        display: inline-block;
+        background: yellow;
+        padding: 18px;
+        color: blueviolet;
+        
+    }
+
+    .step-two {
+        font-weight: bold;
+    }
